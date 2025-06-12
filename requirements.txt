@@ -1,0 +1,30 @@
+streamlit
+langchain
+faiss-cpu
+PyPDF2
+ollama
+sentence-transformers
+
+# # 📚🧠 RAGucator AI – Smart Study & Research Assistant
+
+# RAGucator AI is a local-first GenAI tool combining RAG + Flashcards + Academic Agent. Built using Python, Streamlit & Ollama.
+
+# ## 🔥 Features
+# - Upload PDFs or lecture notes
+# - Ask questions using RAG
+# - Generate key ideas + flashcards
+# - Chat with a local research assistant
+
+# ## ▶️ How to Run
+
+# ```bash
+# git clone https://github.com/yourname/RAGucator-AI
+# cd RAGucator-AI
+# pip install -r requirements.txt
+
+# # Start Ollama
+# ollama serve
+# ollama run phi3
+
+# # Start Streamlit
+# streamlit run app.py
